@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jordan Sanders</title>
-    <link>https://jordansanders.com/</link>
+    <link>https://www.jordansanders.com/</link>
     <description>Recent content on Jordan Sanders</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://jordansanders.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jordansanders.com/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
