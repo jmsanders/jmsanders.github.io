@@ -14,7 +14,7 @@
 
 body {
     display: grid;
-    font-family: monospace;
+    font-family: ui-monospace, monospace;
     height: 100vh;
     margin: 0;
     place-items: center start;
@@ -23,7 +23,7 @@ body {
 
 main {
     font-size: 3.2vh;
-    max-width: 15em;
+    max-width: 18em;
     padding: 4.5vh;
     text-align: left;
 }
@@ -43,6 +43,7 @@ p a {
     text-decoration-color: dodgerblue;
     text-decoration-thickness: 0.1em;
     text-underline-offset: 0.1em;
+    text-decoration-skip-ink: none;
 }
 
 ul {
@@ -80,6 +81,7 @@ i {
     font-variant: normal;
     text-transform: none;
     line-height: 1;
+    font-size: 1.4em;
 
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
