@@ -14,17 +14,18 @@
 
 body {
     display: grid;
-    font-family: serif;
+    font-family: monospace;
     height: 100vh;
     margin: 0;
-    place-items: center center;
+    place-items: center start;
+    padding-left: 4.5vw;
 }
 
 main {
-    font-size: 4.5vh;
-    max-width: 20em;
+    font-size: 3.2vh;
+    max-width: 15em;
     padding: 4.5vh;
-    text-align: center;
+    text-align: left;
 }
 
 a {
@@ -38,6 +39,7 @@ a:hover {
 
 p a {
     text-decoration: underline;
+    text-decoration-style: wavy;
     text-decoration-color: dodgerblue;
     text-decoration-thickness: 0.1em;
     text-underline-offset: 0.1em;
